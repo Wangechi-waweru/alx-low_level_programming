@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *Main- Entry point, the beggining.
- *
- *Return - always retun 0 for success.
- */
+  *Function Main : entry point
+  *
+  *Return value of main should be 0 if successful. 
+*/
 
 int main(void)
 {
