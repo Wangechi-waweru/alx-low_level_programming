@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main : Entry point
+ *Main : Entry point
  *
- * description: assigning random numbers zero, positive or negative.
- * return: always 0
+ *Description: assigning random numbers zero, positive or negative.
+ *Return: always 0
 */
 
 int main(void)
