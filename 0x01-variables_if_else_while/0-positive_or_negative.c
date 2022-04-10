@@ -3,30 +3,29 @@
 #include <stdio.h>
 
 /**
- *Main - Function begins
-*
-*Return - always 0
+  *Main- beggining of program
+  *
+  *Return - end of program
 */
 
-int main(void)
+  int main(void)
 {
-int n;
-
-srand(time(0));
-n = rand() -RAND_MAX / 2;
-
-if (n>1)
-{
-printf("%i is positive\n", n );
-}
-else if (n<0)
-}
-printf("%i is negative\n", n);
-}
-else
-{
-printf("%i is zero\n", n);
-}
-
-return (0);
+	int n;
+	
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	
+	if (n==0)
+	{
+		printf("%i is zero\n", n);
+	}
+	elseif (n<0)
+	{
+		printf("%i is negative\n", n);
+	}
+	else
+	{
+		printf("%i is positive\n",n);
+	}
+	return(0);
 }
