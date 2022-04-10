@@ -3,19 +3,20 @@
 #include <stdio.h>
 
 /**
-  *Main- beggining of program
-  *
-  *Return - end of program
-*/
+ *Main- Entry point, the beggining.
+ *
+ *Return - always retun 0 for success.
+ */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n== 0)
+	if (n == 0)
 		printf("%i is zero\n", n);
-	else if (n< 0)
+	else if (n < 0)
 		printf("%i is negative\n", n);
 	else
 		printf("%i is positive\n", n);
