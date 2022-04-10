@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
-  *Main() : starting point
+  * main - starting point
+  * void - retuns null
   *
-  *Description : assigning a random number greater than 5, 0 0r less than 6
-  *
+  * n : will store a different value every time you run this program
+  * Description : assigning a random number greater than 5, 0 0r less than 6
   *Return(0) : always 0
 */
 
