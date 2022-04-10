@@ -6,7 +6,8 @@
   * main - entry point
   *
   * description : assigning a random number greater than 5, 0 0r less than 6
-  * return : always 0
+  *
+  * return(0) : always 0
 */
 
 int main(void)
@@ -21,8 +22,8 @@ int main(void)
 	else if (n % 10 == 0)
 		printf("Last digit of %i is %i is 0\n", n, n % 10);
 	else
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
+		printf("Lat digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 
-	return (0);
+	return(0);
 }
 
