@@ -5,7 +5,7 @@
 /**
  * main : Entry point
  *
- * assigning random numbers zero, positive or negative.
+ * Description: assigning random numbers zero, positive or negative.
  * Return: always 0
 */
 
