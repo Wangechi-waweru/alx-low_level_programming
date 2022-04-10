@@ -7,7 +7,7 @@
   * void - retuns null
   *
   * n : will store a different value every time you run this program
-  * Description : assigning a random number greater than 5, 0 0r less than 6
+  * Description : main(void) returns a zero if correct
   *Return(0) : always 0
 */
 
