@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-  *Function Main : entry point
-  *
-  *Return value of main should be 0 if successful. 
+ *Main :prints a random number and states whether it is positive, zero or negative.
+ *
+ *Return: always 0
 */
 
 int main(void)
