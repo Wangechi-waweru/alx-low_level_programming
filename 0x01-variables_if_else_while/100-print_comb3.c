@@ -9,21 +9,19 @@ int main(void)
 {
 	int k, l;
 
-	for (k = 48; k <= 56; k++)
+	for (k = 0; k < 9; k++)
 	{
-		for (l = 49; l <= 57; l++)
+		for (l = k + 1; l < 10; l++)
 		{
-			if (l > k)
-			{
-				putchar(k);
-				putchar(l);
-				if (l != 56 || k != 57)
-				{
-					putchar(',');
-					putchar(' ');
+			putchar((k % 10) + '0');
+			putchar((l % 10) + '0');
 
-				}
-			}
+			if (k == 8 && l == 9)
+			continue;
+
+			putchar(',');
+			putchar(' ');
+
 		}
 	}
 	putchar('\n');
