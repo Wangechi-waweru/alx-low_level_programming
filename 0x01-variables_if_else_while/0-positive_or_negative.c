@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
+/*
  * main : Entry point
  *
- * Description: assigning random numbers zero, positive or negative.
  * Return: always 0
 */
 
