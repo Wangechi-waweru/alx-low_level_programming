@@ -3,12 +3,9 @@
 #include <stdio.h>
 
 /**
-  * main - starting point
-  * void - retuns null
-  *
-  * n : will store a different value every time you run this program
-  * Description :int main(void) returns a zero if correct
-  *Return(0) : always 0
+  * main -prints the last digit of random number
+  * n will store a different value every time you run this program
+  * Return: Always 0
 */
 
 int main(void)
