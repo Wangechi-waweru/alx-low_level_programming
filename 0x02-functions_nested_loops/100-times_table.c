@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * print_time_table - prints the n times table, starting from 0
  * @n: number of the times table
@@ -21,7 +22,7 @@ void print_time_table(int n)
 				} else if (k < 10 && j != 0)
 				{
 					_putchar(',');
-					_puchar(' ');
+					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(k + '0');
