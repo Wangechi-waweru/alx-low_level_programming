@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+  * main: returns void
+  * @n,a and p are all integers
+  * Return: 0 if correct
+  */
 
 int main(void)
 {
