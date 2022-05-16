@@ -9,19 +9,28 @@
   */
 int main(int argc, char *argv[])
 {
-	register int a, b;
-	int (*fptr)(int, int);
+	int num1, num2;
 
 	if (argc != 4)
-		printf("Error\n"), exit(98);
-	fptr = get_op_func(argv[2]);
+	{
+		printf("Error\n");
+		exit(98);
+	}
 
-	if (!fptr)
-		printf("Error\n"), exit(99);
+	if (get_op_func(argv[2]) == NULL)
+	{
+		printf("Error\n");
+		exit(99);
+	}
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
+	if ((*argv[2] == '/' || *argv[2] == '%') && (num2 == 0))
+	{
+		printf("Error\n");
+		exit(100);
+	}
 
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
-	printf("%i\n", fptr(a, b));
+	printf("%d\n", get_op_func(argv[2])(num1, num2));
 
 	return (0);
 }
