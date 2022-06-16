@@ -1,9 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdlib.h>
-#include <stdio.h>
-
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
@@ -12,7 +9,6 @@ int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void errors(void);
 int _strlen(char *s);
-char *_memset(char *s, char b, unsigned int n);
-char *_initialize_array(char *ar, int lar)
+int is_digit(char *s);
 
 #endif
